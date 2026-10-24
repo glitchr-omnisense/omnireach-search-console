@@ -1,0 +1,8 @@
+{
+    "rows": [
+        {"keys": ["atelier poterie strasbourg", "fra"], "clicks": 42, "impressions": 980, "ctr": 0.04285714285714286, "position": 3.6224489795918366},
+        {"keys": ["cours de poterie", "fra"], "clicks": 7, "impressions": 1450, "ctr": 0.004827586206896552, "position": 14.12},
+        {"keys": ["pottery class strasbourg", "deu"], "clicks": 1, "impressions": 60, "ctr": 0.016666666666666666, "position": 8.5}
+    ],
+    "responseAggregationType": "byProperty"
+}

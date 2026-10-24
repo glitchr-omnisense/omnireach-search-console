@@ -1,0 +1,54 @@
+{
+    "name": "omnireach/search-console",
+    "type": "library",
+    "description": "Omnireach's Google Search Console, under any PHP host: a property's search queries, pages, countries and devices with their clicks, impressions, CTR and average position, day by day or over a period, through the Search Console API (a service account's key or an access token).",
+    "keywords": [
+        "google",
+        "search-console",
+        "seo",
+        "search",
+        "queries",
+        "positions",
+        "framework-agnostic",
+        "omnireach"
+    ],
+    "homepage": "https://github.com/glitchr-studio/omnireach-search-console",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-openssl": "*",
+        "omniscient/omnireach": "^1.0@dev",
+        "symfony/http-client-contracts": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnireach\\SearchConsole\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnireach\\SearchConsole\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-1.x": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
