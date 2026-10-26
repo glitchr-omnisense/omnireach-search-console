@@ -12,7 +12,7 @@
         "framework-agnostic",
         "omnireach"
     ],
-    "homepage": "https://github.com/glitchr-studio/omnireach-search-console",
+    "homepage": "https://github.com/glitchr-omnisense/omnireach-search-console",
     "license": "MIT",
     "authors": [
         {
@@ -23,7 +23,7 @@
     "require": {
         "php": ">=8.2",
         "ext-openssl": "*",
-        "omniscient/omnireach": "^1.0@dev",
+        "omnisense/omnireach": "^1.0@dev",
         "symfony/http-client-contracts": "^3.0"
     },
     "require-dev": {

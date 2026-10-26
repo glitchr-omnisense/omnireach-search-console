@@ -9,13 +9,13 @@ use PHPUnit\Framework\TestCase;
 /**
  * omnireach/search-console with no framework: every class of the package loaded in a
  * PHP process of its own, with nothing from outside but what it requires -
- * omniscient/omnireach and Symfony's HTTP client contracts (interfaces
+ * omnisense/omnireach and Symfony's HTTP client contracts (interfaces
  * only): no framework, no HTTP client, no application, even in the
  * harness where they are installed beside it.
  */
 final class BareTest extends TestCase
 {
-    private const ALLOWED = ['/vendor/omniscient/omnireach/', '/omnireach/core/', '/vendor/symfony/http-client-contracts/', '/vendor/symfony/service-contracts/'];
+    private const ALLOWED = ['/vendor/omnisense/omnireach/', '/omnireach/core/', '/vendor/symfony/http-client-contracts/', '/vendor/symfony/service-contracts/'];
 
     public function testEveryClassLoadsWithTheRequiredPackagesAlone(): void
     {

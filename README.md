@@ -1,6 +1,6 @@
 # omnireach/search-console
 
-[omniscient/omnireach](https://github.com/glitchr-studio/omnireach)'s Google Search Console,
+[omnisense/omnireach](https://github.com/glitchr-omnisense/omnireach)'s Google Search Console,
 under any PHP host: a property's search queries, pages, countries and devices with their clicks,
 impressions, CTR and average position, day by day or over a period - for a site taken over, the
 history of its pages before and after.
